@@ -75,9 +75,10 @@ Sorry, Windows folks, this won't work for you.
 
 To install Python with asdf, do the following. Note, this will also install `pip` for you.
 
+* Go to the [python plugin](https://github.com/pyenv/pyenv/wiki#suggested-build-environment) page, and install the dependencies
 * `asdf plugin-add python`
-* `asdf install python 3.11.3` - this is the latest version at the time of writing
-* `asdf global python 3.11.3` - this will set Python to use version 3.11.3 everywhere
+* `asdf install python 3.11.5` - this is the latest version at the time of writing
+* `asdf global python 3.11.5` - this will set Python to use version 3.11.3 everywhere
 * Restart your terminal
 
 Typing `which python` in your terminal will show you where `python` is located: you'll need this to set the correct `python` interpreter in Pycharm at some point.
@@ -87,8 +88,8 @@ Typing `python --version` will confirm what version of `python` you are using.
 To install node with asdf, do the following. Note, this will also install `npm` for you.
 
 * `asdf plugin-add nodejs`
-* `asdf install nodejs 18.16.0` - this is the latest [LTS](https://nodejs.org/en/download) at the time of writing
-* `asdf global nodejs 18.16.0` - this will set node to use version 18.16.0 everywhere
+* `asdf install nodejs 18.17.1` - this is the latest [LTS](https://nodejs.org/en/download) at the time of writing
+* `asdf global nodejs 18.17.1` - this will set node to use version 18.17.1 everywhere
 * Restart your terminal
 
 ### Version management for Windows
