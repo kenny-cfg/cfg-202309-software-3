@@ -1,5 +1,14 @@
 # git
 
+## Setting up ssh
+
+* Open the terminal
+* Run `ssh-keygen`
+* Copy the contents of the file at `~/.ssh/id_rsa.pub` into your clipboard
+* Log into to your Github account in your browser
+* Go to https://github.com/settings/keys
+* Add your SSH key
+
 ## Config
 
 * `git config --global core.editor "code --wait"` - Use VS Code as default editor
