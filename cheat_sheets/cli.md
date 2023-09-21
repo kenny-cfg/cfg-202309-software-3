@@ -14,9 +14,9 @@ When DOS came along (on which Windows is built), the DOS command line was a not-
 
 Most UNIX machines come with a version of what's called a **POSIX** shell. On macos, the [Z shell](https://en.wikipedia.org/wiki/Z_shell) (or **zsh**) is used, whereas on Linux, the [Bourne Again Shell](https://www.gnu.org/software/bash/) (or **bash**) is generally used. Other shells exist, but **POSIX** shells are (more or less) interchangeable.
 
-Windows still uses DOS, but another emerging shell exists called (**Powershell**)[https://github.com/PowerShell/PowerShell]. **Powershell** is also available for UNIX machines, but really, no-one outside of the Windows world uses **Powershell**. Fortunately, there are pieces of software that emulate **bash** well enough for most users (noticeably (**mingw**)[https://en.wikipedia.org/wiki/MinGW] and (**cygwin**)[https://www.cygwin.com/]). Luckily, when you install (**git**)[https://git-scm.com/], a trimmed-down version of **cygwin** is installed.
+Windows still uses DOS, but another emerging shell exists called [Powershell](https://github.com/PowerShell/PowerShell). **Powershell** is also available for UNIX machines, but really, no-one outside of the Windows world uses **Powershell**. Fortunately, there are pieces of software that emulate **bash** well enough for most users (noticeably [mingw](https://en.wikipedia.org/wiki/MinGW) and [cygwin](https://www.cygwin.com/)). Luckily, when you install [git](https://git-scm.com/), a trimmed-down version of **cygwin** is installed.
 
-Furthermore, Windows now has the ability to run Linux directly within it using a system called (**WSL**)[https://learn.microsoft.com/en-us/windows/wsl/install]. I haven't used Windows for a long time, but I hear nice things: however, it's not quite frictionless yet, and its use is probably reserved for the more advanced user.
+Furthermore, Windows now has the ability to run Linux directly within it using a system called [WSL](https://learn.microsoft.com/en-us/windows/wsl/install). I haven't used Windows for a long time, but I hear nice things: however, it's not quite frictionless yet, and its use is probably reserved for the more advanced user.
 
 ## Starting the shell
 
