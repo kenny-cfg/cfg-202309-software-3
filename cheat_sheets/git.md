@@ -9,6 +9,24 @@
 * Go to https://github.com/settings/keys
 * Add your SSH key
 
+## Testing your SSH key
+
+* Go to Github, and login
+* Make a new repository
+* Press the green `CODE`
+* Press the `SSH` option
+* Copy the `URL`
+* In your command line, type the following
+```
+git clone <url>
+```
+* `cd <url>`
+* `code .`
+* Edit away
+* `git add -A`
+* `git commit -m "Some message"`
+* `git push`
+
 ## Config
 
 * `git config --global core.editor "code --wait"` - Use VS Code as default editor
