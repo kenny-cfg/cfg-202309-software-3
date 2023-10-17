@@ -17,6 +17,7 @@ Then
 * If you're interested, you can type `pipenv --venv` to find out where `pipenv` has put your virtual environment
 * To **deactivate** your virtual environment, `exit`
 * To delete your virtual environment, delete the folder pointed to by `pipenv --rm`
+* To get the location of your virtual environment folder, `pipenv --venv`
 
 ## Under the bonnet
 
