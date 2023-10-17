@@ -37,19 +37,7 @@ There are two common ways of initializing a virtual environment for your project
 
 ### pipenv
 
-You'll have to install the `pipenv` program first. You can do this using `pip install --user pipenv`.
-
-Then
-
-* Navigate to the root folder of your new project
-* Install a library using `pipenv install requests`
-* You'll notice a `Pipfile` that contains information about what libraries are installed, and a `Pipfile.lock` that specifies exactly what version of your libraries are installed, in your folder
-* If you're interested, you can type `pipenv --venv` to find out where `pipenv` has put your virtual environment
-* To **activate** your virtual environment, `pipenv shell`
-* To **deactivate** your virtual environment, `exit`
-* To delete your virtual environment, delete the folder pointed to by `pipenv --venv`, the `Pipfile` file, and the `Pipfile.lock` file.
-
-Some users (especially Windows, but also sometimes Mac) will experience difficulty getting `pipenv` to run. I haven't quite got to the bottom of why, but if you try this and it fails **you should pipe up immediately**. You should get this sorted out sooner rather than later: it will be quite a big blocker for later parts of the course.
+See [this page](./pipenv.md) for more details.
 
 ## Node and npm
 
