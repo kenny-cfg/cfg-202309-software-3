@@ -45,3 +45,20 @@ git clone <url>
 * `git fetch` - 'Fetch' all changes on the server that are not in your local clone. This does not change your local branches, but it updates your local copies of remote branches so that `git pull` has less to do
 * `git checkout -b <new_branch>` - Create a new branch, and switch to it
 * `git checkout <branch>` - Checkout an existing branch
+
+## After remote trunk has changed
+
+The following instructions assume that the remote trunk branch is called `main`. If it's not, then alter these instructions as appropriate.
+
+1. Make sure that you're checked out on your working branch.
+2. If you have any changes that are not staged, `git stash`. Alternatively, stage, commit and push all changes (typically with a git message of `WIP` = 'Work in progress')
+3. Checkout the trunk branch `git checkout main`
+4. Update your trunk branch with changes from the server `git pull`
+5. Check out your working branch `git checkout <your_branch_name>`
+6. Merge the trunk branch into your working branch `git merge main`
+7. This might result in some merge conflicts. If that's the case
+   1. Resolve the conflicts. VS Code and Pycharm both have pretty good interfaces for this
+   2. `git add -A` your resolutions
+   3. Continue with the merge `git merge --continue`
+8. This will make a new commit on your working branch, which you will have to push to the server `git push`
+9. If you stashed anything in 2., you can restore them by `git stash pop`
