@@ -11,7 +11,7 @@ Some users (especially Windows, but also sometimes Mac) will experience difficul
 For Mac users who are having difficult getting pipenv, you may need to set the path of pipenv on your machine, see this [video](https://www.youtube.com/watch?v=Bzn_MZ0tNXU) for the following:
 
 * `python3 -m site --user-base` to find your user base directory of Python. Change `python3` to `python` if you have that version installed instead
-* Copy the path printed in your terminal. It should look something like /Users/yourname/Libary/Python/3.11
+* Copy the path printed in your terminal. It should look something like this: `/Users/yourname/Libary/Python/3.11`
 * `code ~/.zshrc` to open your zshell file in VScode
 * At the top of your zshell file, type `export PATH="$PATH:<paste your path here>/bin"` and save the file and close
 * `pipenv --version` in a new terminal window. Your pipenv should now run
