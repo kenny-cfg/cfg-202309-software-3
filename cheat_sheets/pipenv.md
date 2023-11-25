@@ -4,9 +4,17 @@
 
 More detailed instructions can be found [here](https://pipenv.pypa.io/en/latest/)
 
-You'll have to install the `pipenv` program first. You can do this using `pip install --user pipenv`. Check that it has installed by typing `pipenv --version` in the command line. You might have to restart your terminal.
+You'll have to install the `pipenv` program first. You can do this using `pip install --user pipenv`, or `pip3 install pipenv` if you have Python3 installed. Check that it has installed by typing `pipenv --version` in the command line. You might have to restart your terminal.
 
 Some users (especially Windows, but also sometimes Mac) will experience difficulty getting `pipenv` to run. I haven't quite got to the bottom of why, but if you try this and it fails **you should pipe up immediately**. You should get this sorted out sooner rather than later: it will be quite a big blocker for later parts of the course.
+
+For Mac users who are having difficult getting pipenv, you may need to set the path of pipenv on your machine, see this [video](https://www.youtube.com/watch?v=Bzn_MZ0tNXU) for the following:
+
+* `python3 -m site --user-base` to find your user base directory of Python. Change `python3` to `python` if you need to
+* Copy the path printed in your terminal. It should look something like this: `/Users/yourname/Libary/Python/3.11`
+* `code ~/.zshrc` to open your zshell file in VScode
+* At the top of your zshell file, type `export PATH="$PATH:<paste your path here>/bin"` and save the file and close
+* `pipenv --version` in a new terminal window. Your pipenv should now run
 
 Then
 
